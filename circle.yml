@@ -2,4 +2,4 @@ machine:
   node:
     version: 8.11.4
   test:
-    - npm test
+    - ./node_modules/.bin/mocha
